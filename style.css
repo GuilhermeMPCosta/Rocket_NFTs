@@ -387,10 +387,6 @@
   font-size: 20px;
  }
 
- .selected{
-  background-color: var(--color-logo);
- }
-
  .mais{
   display: flex;
   align-items: center;
@@ -430,13 +426,15 @@
  
  .input-title{
   font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px;
  }
 
  .input{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30%;
+  width: 40%;
   flex-direction: column;
   border: 1px solid transparent;
   border-right-color: var(--text-color);
@@ -447,12 +445,18 @@
  .input-text{
   padding: 10px;
   background-color: var(--color-input);
+  width: 100%;
  }
 
  .span-input{
     background-color: var(--text-color);
-    padding: 10px;
+    padding-block: 15px;
+    padding-inline:30px;
 
+ }
+
+ .flex{
+  display: flex;
  }
 
  .span-input a{
@@ -463,6 +467,65 @@
 
  .span-input:hover{
   cursor: pointer;
+ }
+
+ .footer_class{
+  display: flex;
+  align-items: center;
+  width: 100%;
+ }
+
+.informacoes_globais{
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+  padding-left: 10%;
+  padding-bottom: 3%;
+  border: 1px solid transparent;
+  border-bottom-color: var(--text-color);
+  transform: translateY(20%);
+  width: 60%;
+}
+
+ .dados{
+    position: relative;
+    line-height: 2rem;
+    font-size: 20px;
+    
+ }
+
+ .subtitulo{
+    color: var(--subtitle-color);
+ }
+
+ .footer-footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-block: 5%;
+ }
+
+ .icones{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding-right: 10%;
+ }
+
+ .link-site{
+    color: var(--subtitle-color);
+ }
+
+ .card:hover{
+    background-color: var(--color-logo);
+    cursor: pointer;
+    columns: var(--black-text);
+ }
+
+ .card:hover span{
+    color: var(--text-color);
  }
 
 
